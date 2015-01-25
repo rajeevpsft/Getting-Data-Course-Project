@@ -9,7 +9,7 @@ info_test_ds			Reads in x_test.txt file which measures 561 different variables m
 subject_test_ds 		Reads in subject_test.txt file for which subject (1-30) ties to the observations in the x_test file
 activity_test_ds 		Reads in y_test.txt file for type of activity used by the test group of subject	
 merged_test_ds 			Merges the three data frames above into one
-subset_data_test 		Creates a subset of the full data frame to only contain the Body Accelaration Mean and Std Deviation for X,Y and Z axis for the test sample of subjects
+subset_data_test 		Creates a subset of the full data frame to only contain the Body Accelaration Mean and Std 		 Deviation for X,Y and Z axis for the test sample of subjects
 
 info_train_ds			Reads in x_train.txt file which measures 561 different variables multiple times for multiple "train" subjects
 subject_train_ds 		Reads in subject_train.txt file for which subject (1-30) ties to the observations in the x_train file
