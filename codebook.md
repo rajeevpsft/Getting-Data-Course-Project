@@ -21,7 +21,7 @@ subset_data_train 		Creates a subset of the full data frame to only contain the 
 full_merge 			Contains a data set that merges the train and test subsets shown above. This has a total of 10299 rows of 6 observations for the 30 subjects over the different activities
 
 tidy_data 			Data frame created from the fully merged data that contains the mean of the mean and std deviation for X,Y and Z axis as detailed in the ful_merge data frame. This is also written to a file
-
+  
 
 Variables in the Tidy data file
 
@@ -29,9 +29,73 @@ Variables in the Tidy data file
 
 "Activity" - Showing the Activity performed (1-6) as explained in the documentation
 
-"Body_Accl_Mean_X" - Mean of Mean of acceleration in X axis by subject and activity. Values between -1 and 1
-"Body_Accl_Mean_Y" - Mean of Mean of acceleration in Y axis by subject and activity. Values between -1 and 1
-"Body_Accl_Mean_Z" - Mean of Mean of acceleration in Z axis by subject and activity. Values between -1 and 1
-"Body_Accl_Std_Dev_X" - Mean of Std Deviation of acceleration in X axis by subject and activity. Values between -1 and 1
-"Body_Accl_Std_Dev_Y" - Mean of Std Deviation of acceleration in X axis by subject and activity. Values between -1 and 1
-"Body_Accl_Std_Dev_Z" - Mean of Std Deviation of acceleration in X axis by subject and activity. Values between -1 and 1
+The following are variables that shows means of different mean and std deviation values by subject and activity. Values between -1 and 1 for each
+
+"tBodyAcc-mean()-X" 
+"tBodyAcc-mean()-Y"
+"tBodyAcc-mean()-Z" 
+"tBodyAcc-std()-X" 
+"tBodyAcc-std()-Y" 
+"tBodyAcc-std()-Z"
+"tGravityAcc-mean()-X" 
+"tGravityAcc-mean()-Y" 
+"tGravityAcc-mean()-Z" 
+"tGravityAcc-std()-X" 
+"tGravityAcc-std()-Y" 
+"tGravityAcc-std()-Z" 
+"tBodyAccJerk-mean()-X" 
+"tBodyAccJerk-mean()-Y" 
+"tBodyAccJerk-mean()-Z" 
+"tBodyAccJerk-std()-X" 
+"tBodyAccJerk-std()-Y" 
+"tBodyAccJerk-std()-Z" 
+"tBodyGyro-mean()-X" 
+"tBodyGyro-mean()-Y" 
+"tBodyGyro-mean()-Z" 
+"BodyGyro-std()-X" 
+"tBodyGyro-std()-Y" 
+"tBodyGyro-std()-Z"
+"tBodyGyroJerk-mean()-X"
+"tBodyGyroJerk-mean()-Y" 
+"tBodyGyroJerk-mean()-Z" 
+"tBodyGyroJerk-std()-X" 
+"tBodyGyroJerk-std()-Y" 
+"tBodyGyroJerk-std()-Z" 
+"tBodyAccMag-mean()" 
+"tBodyAccMag-std()" 
+"tGravityAccMag-mean()" 
+"tGravityAccMag-std()" 
+"tBodyAccJerkMag-mean()" 
+"tBodyAccJerkMag-std()" 
+"tBodyGyroMag-mean()" 
+"tBodyGyroMag-std()"
+"tBodyGyroJerkMag-mean()" 
+"tBodyGyroJerkMag-std()" 
+"fBodyAcc-mean()-X" 
+"fBodyAcc-mean()-Y" 
+"fBodyAcc-mean()-Z" 
+"fBodyAcc-std()-X" 
+"fBodyAcc-std()-Y" 
+"fBodyAcc-std()-Z" 
+"fBodyAccJerk-mean()-X" 
+"fBodyAccJerk-mean()-Y" 
+"fBodyAccJerk-mean()-Z" 
+"fBodyAccJerk-std()-X" 
+"fBodyAccJerk-std()-Y" 
+"fBodyAccJerk-std()-Z" 
+"fBodyGyro-mean()-X" 
+"fBodyGyro-mean()-Y" 
+"fBodyGyro-mean()-Z" 
+"fBodyGyro-std()-X" 
+"fBodyGyro-std()-Y" 
+"fBodyGyro-std()-Z" 
+"fBodyAccMag-mean()" 
+"fBodyAccMag-std()" 
+"fBodyBodyAccJerkMag-mean()" 
+"fBodyBodyAccJerkMag-std()" 
+"fBodyBodyGyroMag-mean()" 
+"fBodyBodyGyroMag-std()" 
+"fBodyBodyGyroJerkMag-mean()" 
+"fBodyBodyGyroJerkMag-std()"
+
+
